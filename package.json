@@ -1,0 +1,27 @@
+{
+  "name": "intermittent-fasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddybek/intermittent-fasting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddybek/intermittent-fasting/issues"
+  },
+  "homepage": "https://github.com/ddybek/intermittent-fasting#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "firebase": "^8.3.1"
+  }
+}
