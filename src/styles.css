@@ -1,0 +1,65 @@
+body {
+    padding: 100px 20px 0 20px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.center-layout {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: solid transparent 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #eae8e8;
+    font-size: 14px;
+}
+
+button:hover {
+    border: solid black 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: dodgerblue;
+}
+
+header a {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.title-link {
+    font-size: 18px;
+}
+
+#sign-in-google {
+    background-color: rgb(219, 68, 55);
+    color: white;
+}
+
+#sign-in-button,
+#sign-out-button {
+    display: none;
+}

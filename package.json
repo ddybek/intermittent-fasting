@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --out-dir build"
+    "build": "parcel build ./src/index.html --out-dir build",
+    "deploy": "firebase deploy",
+    "build_deploy": "npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
